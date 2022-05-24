@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Black<span class="logo">Jack</span></h1>
+
+    <button id="instToggle" onclick="viewInstructions()"><span class="spade">&spades;</span> Instructions</button>
+    <h3 id="instructions">Basically, you're supposed to draw cards consecutively till the sum is less than or equal to 21. If they add up to 21 then you win, if the sum crosses 21, you lose. Also, the value of J, Q and K are considered 10 for whatever reason and the value of A can be choosen to be 1 or 11 by the player, but I am too much of a noob to implement it. So yeah, have fun.</h3>
+    
+    <h2 id="message-el">Play a round?</h2>
+    <button id="startGame-el" onclick = "startGame()">Start Game</button>
+    
+    <h2 id="cards-el">Cards:</h2>
+    <h2 id="sum-el">Sum:</h2>
+    
+    <button id="newCard-el" onclick = "newCard()" style="display: none;">New Card</button>
+    
+    <h3 id="plays"></h3>
+    <h3 id="wins"></h3>
+    <h3 id="loses"></h3>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

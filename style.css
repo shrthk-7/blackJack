@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: darkorange;
+    font-family: Helvetica;
+    font-weight: bold;
+
+    text-align: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    justify-items: center;
+}
+.logo {
+    font-style: italic;
+    padding: 0.5rem;
+    background-color: darkorange;
+    color: black;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+    transition: all 0.4s linear;
+}
+h1 {
+    font-size: 4rem;
+    background-color: beige;
+    transition: all 0.2s linear;
+}
+h1:hover {
+    background-color: darkorange;
+    color: black;
+    cursor: pointer;
+}
+h1:hover .logo {
+    background-color: beige;
+    color: darkorange;
+}
+h2 {
+    font-size: 2.5rem;
+}
+#message-el {
+    height: 8rem;
+}
+h3 {
+    display: block;
+}
+.spade {
+    font-size: 2rem;
+}
+#instructions {
+    text-align: left;
+    font-size: 1rem;
+    padding: 1rem;
+}
+button {
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: black;
+    background-color: darkorange;
+
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 1rem auto 0.5rem auto;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.chooseVal>button {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: beige;
+    color: darkorange;
+}
